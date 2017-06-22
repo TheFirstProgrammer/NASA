@@ -15,7 +15,11 @@ namespace WebApplication2.Controllers
 
         public ActionResult API()
         {
+            //With regards to ServicePointManager these two articles are helpful:
+            //https://stackoverflow.com/questions/35621686/authentication-failed-because-the-remote-party-has-closed-the-transport-stream-e 
+            //https://stackoverflow.com/questions/35621686/authentication-failed-because-the-remote-party-has-closed-the-transport-stream-e
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Ssl3 | SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
+
             var client = new WebClient();
 
             //Replace this URL with your API url

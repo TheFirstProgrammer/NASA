@@ -115,9 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication2\WebApplication2.csproj">
+    <ProjectReference Include="..\WebApplication2\BE.csproj">
       <Project>{65cb1a98-68ce-4fc8-b094-5cddc51340e9}</Project>
-      <Name>WebApplication2</Name>
+      <Name>BE</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

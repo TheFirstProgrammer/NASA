@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{BB5A8C0C-2AAD-42CB-9714-E2C699BCC584}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_FE", "WebApplication1\_FE.csproj", "{BB5A8C0C-2AAD-42CB-9714-E2C699BCC584}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2", "WebApplication2\WebApplication2.csproj", "{65CB1A98-68CE-4FC8-B094-5CDDC51340E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BE", "WebApplication2\BE.csproj", "{65CB1A98-68CE-4FC8-B094-5CDDC51340E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
